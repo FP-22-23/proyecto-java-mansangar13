@@ -1,11 +1,12 @@
 package fp.pokemon;
+import fp.common.*;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Objects;
 
-
+import fp.common.Tipo;
 import fp.utiles.*;
 
 public class Pokemon {
@@ -29,7 +30,7 @@ public class Pokemon {
 	
 	public Pokemon (Integer numberP, String name, Tipo type1, Tipo type2, LocalDateTime fA, Integer HP, Integer Attack,
 	 Integer Defense ,Integer SpAtk, Integer SpDef,Integer Speed,Integer Stage, Boolean Legendary, List<String> abilities) {
-		Checkers.check("¡Las fechar de aparicion de los pokemon deben estar entre el 1 de enero de 1996 a las 00:00:00 y el 1 de enero de 2023 a las 00:00:00!", 
+		Checkers.check("¡Las fecha de aparicion de los pokemon deben estar entre el 1 de enero de 1996 a las 00:00:00 y el 1 de enero de 2023 a las 00:00:00!", 
 				fA.isAfter(LocalDateTime.of(1996, 1, 1, 00, 00, 00)) && fA.isBefore(LocalDateTime.of(2023, 1, 1, 00, 00, 00)));
 		Checkers.check("¡Un pokemon debe estar entre los 1010 totales que existen!",  numberP > 0 && numberP <= 1010);
 		//Checkers.check("Las estadisticas de un pokemon nunca pueden ser negativas o 0", HP > 0 && Attack > 0 && Defense > 0 && SpAtk > 0 && SpDef > 0 && Speed > 0  );

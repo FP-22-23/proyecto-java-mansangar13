@@ -1,5 +1,6 @@
 package fp.pokemon.test;
 
+import fp.common.Tipo;
 import fp.pokemon.*;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -8,6 +9,7 @@ import java.util.List;
 public class PokemonTest {
 
 	public static void main(String[] args) {
+		
 		List<String> abilities1 = new ArrayList<String>();
 		abilities1.add("Overgrow");
 		abilities1.add("Chlorophyll");
@@ -63,11 +65,13 @@ public class PokemonTest {
 			System.out.println("Son diferentes");
 		}
 		
+		
 		System.out.println("-----------------------------------------------------------");
 		System.out.println("-----------------------------------------------------------");
 		
 		//COMPARE TO
 		System.out.println("COMPARE TO");
+		
 		int r = Bulbasaur.compareTo(Dragonite);
 	    if(r == 0) {
 			System.out.println("Los pokemon son los mismos");
@@ -79,6 +83,10 @@ public class PokemonTest {
 			System.out.println("El pokemon " + Bulbasaur.getName() + " va antes en la pokédex que " + Dragonite.getName());
 		}
 		
+	
+
+		
+	
 
 	}
 

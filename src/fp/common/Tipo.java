@@ -1,4 +1,4 @@
-package fp.pokemon;
+package fp.common;
 
 public enum Tipo {
 	GRASS, POISON, DRAGON, FIRE,
