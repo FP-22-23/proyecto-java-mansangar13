@@ -1,0 +1,152 @@
+numberP,Name,Type 1,Type 2,fA,HP,Attack,Defense,Sp. Atk,Sp. Def,Speed,Stage,Legendary,abilities
+1,Bulbasaur,Grass,Poison,1999-11-19 0:03:41,45,49,49,65,65,45,1,FALSE,Latigo Cepa,Gruñido
+2,Ivysaur,Grass,Poison,2005-07-25 13:15:40,60,62,63,80,80,60,2,FALSE,Absorber,Latigo Cepa,Somnifero
+3,Venusaur,Grass,Poison,2004-10-29 23:50:58,80,82,83,100,100,80,3,FALSE,Gigadrenado,Toxico,Carga Toxica,Planta Feroz
+4,Charmander,Fire,NT2,1997-02-12 8:45:00,39,52,43,60,50,65,1,FALSE,Ascuas,Pantalla Humo
+5,Charmeleon,Fire,NT2,2002-10-05 6:25:00,58,64,58,80,65,80,2,FALSE,Pirotecnia,Furia Dragon,Garra Metal
+6,Charizard,Fire,Flying,2014-05-01 18:29:00,78,84,78,109,85,100,3,FALSE,Lanzallamas,Garra Dragon,Vuelo,Anillo Igneo
+7,Squirtle,Water,NT2,1999-12-22 4:15:50,44,48,65,50,64,43,1,FALSE,Burbuja,Refugio
+8,Wartortle,Water,NT2,2019-12-02 14:47:14,59,63,80,65,80,58,2,FALSE,Hidropulso,Rompecoraza,Acuacola
+9,Blastoise,Water,NT2,2017-08-02 16:58:33,79,83,100,85,105,78,3,FALSE,Surf,Giro Rapido,Hidrochorro,Hidrocañon
+10,Caterpie,Bug,NT2,2013-04-17 17:36:48,45,30,35,20,20,45,1,FALSE,Placaje
+11,Metapod,Bug,NT2,2000-07-23 15:15:57,50,20,55,25,25,30,2,FALSE,Fortaleza
+12,Butterfree,Bug,Flying,2007-04-15 11:27:25,60,45,50,90,80,70,3,FALSE,Psicorrayo,Acoso,Zumbido
+13,Weedle,Bug,Poison,2015-10-26 0:40:22,40,35,30,20,20,50,1,FALSE,Picotazo
+14,Kakuna,Bug,Poison,2017-09-18 1:02:52,45,25,50,25,25,35,2,FALSE,Fortaleza
+15,Beedrill,Bug,Poison,2014-02-01 2:53:47,65,90,40,45,80,75,3,FALSE,Ataque Furia,Pin Misil,Picotazo Veneno
+16,Pidgey,Normal,Flying,2012-08-06 20:24:03,40,45,40,35,35,56,1,FALSE,Destructor,Gruñido
+17,Pidgeotto,Normal,Flying,1998-09-02 6:08:53,63,60,55,50,50,71,2,FALSE,Tornado,Respiro,Avivar
+18,Pidgeot,Normal,Flying,2007-12-27 6:10:21,83,80,75,70,70,101,3,FALSE,Vendaval,Respiro,Agilidad,Remolino
+19,Rattata,Normal,NT2,2009-08-02 13:59:34,30,56,35,25,35,72,1,FALSE,Placaje
+20,Raticate,Normal,NT2,2009-08-26 11:35:49,55,81,60,50,70,97,2,FALSE,Mordisco,Hiper Colmillo,Avivar
+21,Spearow,Normal,Flying,2001-02-25 4:33:09,40,60,30,31,31,70,1,FALSE,Destructor,Avivar
+22,Fearow,Normal,Flying,2011-03-22 12:11:50,65,90,65,61,61,100,2,FALSE,Vuelo,Viento Afin,Golpe Aereo,Ciclon
+23,Ekans,Poison,NT2,2010-12-02 13:28:19,35,60,44,40,54,55,1,FALSE,Picotazo Veneo,Bilis
+24,Arbok,Poison,NT2,2017-08-21 14:21:14,60,85,69,65,79,80,2,FALSE,Lanza Mugre,Bomba Lodo,Reserva,Acido
+25,Pikachu,Electric,NT2,2020-03-06 10:58:32,35,55,40,50,50,90,1,FALSE,Placaje Electrico,Rayo,Cola Ferrea
+26,Raichu,Electric,NT2,2007-11-21 16:02:11,60,90,55,90,80,110,2,FALSE,Placaje Electrico,Cola Ferrea,Trueno,Surf
+27,Sandshrew,Ground,NT2,1999-05-25 15:42:41,50,75,85,20,30,40,1,FALSE,Terratemblor,Golpes Furia
+28,Sandslash,Ground,NT2,2015-12-02 4:57:53,75,100,110,45,55,65,2,FALSE,Terremoto,Tierra Viva,Garra Brutal,
+29,NidoranH,Poison,NT2,2020-05-23 8:50:54,55,47,52,40,40,41,1,FALSE,Picotazo Veneno,Malicioso
+30,Nidorina,Poison,NT2,2009-04-10 23:37:43,70,62,67,55,55,56,2,FALSE,Bomba Lodo,Garra Umbria,Puya Nociva
+31,Nidoqueen,Poison,Ground,2021-05-31 0:49:47,90,92,87,75,85,76,3,FALSE,Terremoto,Excavar,Contoneo,Puas Toxicas
+32,NidoranM,Poison,NT2,2021-11-29 20:46:16,46,57,40,40,40,50,1,FALSE,Picotazo Veneno,Malicioso
+33,Nidorino,Poison,NT2,2009-03-15 14:57:35,61,72,57,55,55,65,2,FALSE,Cornada,Camelo,Doble Patada
+34,Nidoking,Poison,Ground,2022-09-11 18:44:08,81,102,77,85,75,85,3,FALSE,Terremoto,Lanza Mugre,Puas Toxicas,Aguante
+35,Clefairy,Fairy,NT2,2008-05-25 9:25:33,70,45,48,60,65,35,1,FALSE,Brillo Magico,Sonanmbulo,Descanso
+36,Clefable,Fairy,NT2,2014-04-08 9:14:05,95,70,73,95,90,60,2,FALSE,Luz Lunar,Reflejo,Pantalla Luz,Fuerza Lunar
+37,Vulpix,Fire,NT2,2010-03-15 19:07:22,38,41,40,50,65,65,1,FALSE,Ascuas,Latigo
+38,Ninetales,Fire,NT2,2014-01-08 9:23:29,73,76,75,81,100,100,2,FALSE,Lanzallamas,Psiquico,Dia Soleado,Viento Feerico
+39,Jigglypuff,Normal,Fairy,2015-08-26 19:55:01,115,45,20,45,25,20,1,FALSE,Placaje,Ojitos Tiernos
+40,Wigglytuff,Normal,Fairy,2012-06-05 13:34:37,140,70,45,85,50,45,2,FALSE,Canto,Beso Drenaje,Paz Mental,Doble Filo
+41,Zubat,Poison,Flying,2016-03-29 16:01:36,40,45,35,30,40,55,1,FALSE,Picotazo Veneno,Supersonico
+42,Golbat,Poison,Flying,2019-06-19 5:17:13,75,80,70,65,75,90,2,FALSE,Mordisco,Ataque Ala,Colmillo Veneno
+43,Oddish,Grass,Poison,2009-03-23 19:59:33,45,50,55,75,65,30,1,FALSE,Acido,Absorber
+44,Gloom,Grass,Poison,2017-04-18 16:44:23,60,65,70,85,75,40,2,FALSE,Megaagotar,Hoja Magica,Buena Baza
+45,Vileplume,Grass,Poison,2020-01-08 12:39:00,75,80,85,110,90,50,3,FALSE,Gigadrenado,Bomba Lodo,Toxico,Hierba lazo
+46,Paras,Bug,Grass,2007-03-16 11:58:54,35,70,55,45,55,25,1,FALSE,Semilladora,Abatidoras
+47,Parasect,Bug,Grass,2018-02-18 21:39:56,60,95,80,60,80,30,2,FALSE,Tijera X,Gigadrenado,Proteccion,Falsotortazo
+48,Venonat,Bug,Poison,2006-12-18 15:14:05,60,55,50,40,55,45,1,FALSE,Chupavidas,Disparo Demora
+49,Venomoth,Bug,Poison,2004-03-31 2:43:46,70,65,60,90,75,90,2,FALSE,Zumbido,Picadura,Toxico
+50,Diglett,Ground,NT2,2004-05-19 11:26:25,10,55,25,35,45,95,1,FALSE,Excavar,Golpe Roca
+51,Dugtrio,Ground,NT2,2022-01-21 12:49:49,35,80,50,50,70,120,2,FALSE,Terremoto,Corte Furia,Danza Espada,Ladron
+52,Meowth,Normal,NT2,2017-12-11 3:08:20,40,45,35,40,40,90,1,FALSE,Dia de Pago,Placaje
+53,Persian,Normal,NT2,2014-05-07 5:44:20,65,70,60,65,65,115,2,FALSE,Imagen,Danza Espada,Contoneo,Sustituto
+54,Psyduck,Water,NT2,2008-04-07 13:43:29,50,52,48,65,50,55,1,FALSE,Piscorrayo,Pistola Agua
+55,Golduck,Water,NT2,2012-01-31 1:42:26,80,82,78,95,80,85,2,FALSE,Psiquic,Surf,Comesueños,Canto
+56,Mankey,Fighting,NT2,2005-12-12 8:38:23,40,80,35,35,45,70,1,FALSE,Golpe Roca,Puño Furia
+57,Primeape,Fighting,NT2,1998-11-07 10:50:16,65,105,60,60,70,95,2,FALSE,A Bocajarro,Corpulencia,Golpe Karate
+58,Growlithe,Fire,NT2,2014-01-09 18:30:35,55,70,45,70,50,60,1,FALSE,Ascuas,Avivar
+59,Arcanine,Fire,NT2,2004-05-29 18:11:48,90,110,80,100,80,95,2,FALSE,Lanzallamas,Pirotecnia,Dia Soleado,Colmillo Igneo
+60,Poliwag,Water,NT2,2010-04-25 14:51:58,40,50,40,40,40,90,1,FALSE,Burbuja,Aguante
+61,Poliwhirl,Water,NT2,2017-04-30 0:33:28,65,65,65,50,50,90,2,FALSE,Cabezazo,Proteccion,Pistola Agua
+62,Poliwrath,Water,Fighting,2008-10-11 2:18:26,90,95,95,70,90,70,3,FALSE,Escaldar,Puño Certero,Hipnosis,Surf
+63,Abra,Psychic,NT2,2012-04-01 17:48:42,25,20,15,105,55,90,1,FALSE,Teletransporte
+64,Kadabra,Psychic,NT2,1999-02-04 6:04:57,40,35,30,120,70,105,2,FALSE,Confusion ,Placaje
+65,Alakazam,Psychic,NT2,1999-02-11 22:14:43,55,50,45,135,95,120,3,FALSE,Psiquico,Bola Sombra,Rayo,comesueños
+66,Machop,Fighting,NT2,2002-08-14 8:59:31,70,80,50,35,35,35,1,FALSE,Golpe Karate,Aguante
+67,Machoke,Fighting,NT2,2011-06-01 0:49:29,80,100,70,50,60,45,2,FALSE,Mov Sismico,Puño Drenaje
+68,Machamp,Fighting,NT2,2002-06-06 23:28:58,90,130,80,65,85,55,3,FALSE,Puño Fuego,Puño Trueno,Puño Hielo,A Bocajarro
+69,Bellsprout,Grass,Poison,2011-11-16 19:33:15,50,75,35,70,30,40,1,FALSE,Latigo Cepa,Acido
+70,Weepinbell,Grass,Poison,2004-10-28 12:16:02,65,90,50,85,45,55,2,FALSE,Megaagotar
+71,Victreebel,Grass,Poison,1996-02-16 12:24:30,80,105,65,100,70,70,3,FALSE,Gigadrenado,Toxico,Bomba Germen,Golpe Bajo
+72,Tentacool,Water,Poison,1998-08-17 22:13:03,40,40,35,50,100,70,1,FALSE,Picotazo Veneno,Pistola Agua
+73,Tentacruel,Water,Poison,2008-07-05 6:40:44,80,70,65,80,120,100,2,FALSE,Surf,Lanza Mugre,Acua Cola
+74,Geodude,Rock,Ground,2013-10-08 2:43:47,40,80,100,30,30,20,1,FALSE,Golpe Roca,Trampa Rocas
+75,Graveler,Rock,Ground,2022-10-17 2:40:45,55,95,115,45,45,35,2,FALSE,Terratemblor,Tumbarrocas
+76,Golem,Rock,Ground,2018-08-04 6:06:03,80,120,130,55,65,45,3,FALSE,Terremoto,Rompecorazas,Romperrocas
+77,Ponyta,Fire,NT2,2018-02-07 23:36:42,50,85,55,65,65,90,1,FALSE,Acuas,Latigo
+78,Rapidash,Fire,NT2,2006-09-03 18:37:55,65,100,70,80,80,105,2,FALSE,Rueda Fuego,Lanzallamas,Pisoton
+79,Slowpoke,Water,Psychic,2003-09-14 5:44:54,90,65,65,40,40,15,1,FALSE,Pistola Agua,Confusion
+80,Slowbro,Water,Psychic,2000-12-01 1:08:18,95,75,110,100,80,30,2,FALSE,Surf,Psiquico,Psicoonda,Descanso
+81,Magnemite,Electric,Steel,2018-06-15 14:23:13,25,35,70,95,55,45,1,FALSE,Impactrueno,Leviton
+82,Magneton,Electric,Steel,2000-12-06 6:03:21,50,60,95,120,70,70,2,FALSE,Foco Resplandor,Rayo,Bomba Iman,Onda Trueno
+83,Farfetch'd,Normal,Flying,1998-06-19 23:10:01,52,65,55,58,62,60,1,FALSE,Danza Espada,Doble Filo
+84,Doduo,Normal,Flying,2009-10-21 10:04:44,35,85,45,35,35,75,1,FALSE,Picoteo,Pisoton
+85,Dodrio,Normal,Flying,2012-09-26 9:59:17,60,110,70,60,60,100,2,FALSE,Tripatada,Golpe Cabeza,
+86,Seel,Water,NT2,2015-03-13 18:57:12,65,45,55,45,70,45,1,FALSE,Burbuja
+87,Dewgong,Water,Ice,2009-06-13 8:57:21,90,70,80,70,95,70,2,FALSE,Rayo Hielo,Acua Cola,Sonanmbulo
+88,Grimer,Poison,NT2,2007-02-02 14:50:46,80,80,50,40,50,25,1,FALSE,Acido
+89,Muk,Poison,NT2,2016-09-22 12:27:27,105,105,75,65,100,50,2,FALSE,Lanza Mugre,Reduccion,Toxico
+90,Shellder,Water,NT2,2020-01-08 21:26:44,30,65,100,45,25,40,1,FALSE,Pistola Agua,Neblina
+91,Cloyster,Water,Ice,2010-01-06 17:09:41,50,95,180,85,45,70,2,FALSE,Vaho Gelido,Refugio,Hidropulso
+92,Gastly,Ghost,Poison,1997-03-23 11:05:35,30,35,30,100,35,80,1,FALSE,Tinieblas,Maldicion
+93,Haunter,Ghost,Poison,2007-08-21 12:50:15,45,50,45,115,55,95,2,FALSE,Puño Sombra,Hipnosis
+94,Gengar,Ghost,Poison,1997-07-15 4:19:07,60,65,60,130,75,110,3,FALSE,Bola Sombra,Comesueños,Garra Umbria,Bomba Lodo
+95,Onix,Rock,Ground,2014-07-07 23:52:33,35,45,160,30,45,70,1,FALSE,Golpe Roca,Tumba Rocas,Pulimento
+96,Drowzee,Psychic,NT2,2000-07-31 12:42:18,60,48,45,43,90,42,1,FALSE,Hipnosis,Comesueños
+97,Hypno,Psychic,NT2,2008-05-20 16:14:35,85,73,70,73,115,67,2,FALSE,Psicorrayo,Psicoonda,Golpe cabeza
+98,Krabby,Water,NT2,2000-11-06 3:47:28,30,105,90,25,25,50,1,FALSE,Burbuja,Salmuera
+99,Kingler,Water,NT2,2006-12-24 13:33:10,55,130,115,50,50,75,2,FALSE,Martillazo,Cortefuria,Golpe Cuerpo
+100,Voltorb,Electric,NT2,2004-05-21 22:30:42,40,30,50,55,55,100,1,FALSE,Impactrueno,Leviton
+101,Electrode,Electric,NT2,2008-03-28 2:40:39,60,50,70,80,80,140,2,FALSE,Rayo,Giro Bola,Onda Trueno
+102,Exeggcute,Grass,Psychic,2008-05-17 4:02:41,60,40,80,60,45,40,1,FALSE,Confusion ,Latigo Cepa
+103,Exeggutor,Grass,Psychic,1996-05-29 0:57:53,95,95,85,125,65,55,2,FALSE,Psiquico,Bomba Germen,Furia Dragon
+104,Cubone,Ground,NT2,1999-09-05 20:27:32,50,50,95,40,50,35,1,FALSE,Exacavar,Arañazo
+105,Marowak,Ground,NT2,2014-03-16 10:10:09,60,80,110,50,80,45,2,FALSE,Hueso Palo,Golpe cabeza,Terremoto
+106,Hitmonlee,Fighting,NT2,2007-05-27 2:14:42,50,120,53,35,110,87,1,FALSE,Patada Ignea,Triplepatada,Patada Salto Alta
+107,Hitmonchan,Fighting,NT2,2017-11-12 1:20:16,50,105,79,35,110,76,1,FALSE,Puño Fuego,Puño Trueno,Puño Certero
+108,Lickitung,Normal,NT2,2008-04-07 6:12:58,90,55,75,60,75,30,1,FALSE,Golpe Cabeza,Lenguetazo
+109,Koffing,Poison,NT2,2021-01-17 12:05:22,40,65,95,60,45,35,1,FALSE,Polucion
+110,Weezing,Poison,NT2,2012-07-18 14:00:09,65,90,120,85,70,60,2,FALSE,Bomba Lodo,Toxico,Veneno X
+111,Rhyhorn,Ground,Rock,2002-02-19 23:39:36,80,85,95,30,30,25,1,FALSE,Trampa Rocas,Terratemblor,Cornada
+112,Rhydon,Ground,Rock,2000-12-27 14:10:27,105,130,120,45,45,40,2,FALSE,Giga Impacto,Terremoto,Treparrocas,Lanzarrocas
+113,Chansey,Normal,NT2,2011-01-06 8:41:35,250,5,5,35,105,50,1,FALSE,Bomba Huevo,Amortiguador
+114,Tangela,Grass,NT2,2006-09-29 5:01:46,65,55,115,100,40,60,1,FALSE,Latigo Cepa,Deasrrollo,Semilladora
+115,Kangaskhan,Normal,NT2,1998-08-07 6:10:18,105,95,80,40,80,90,1,FALSE,Doble Filo,Garra Umbria,Onda Certera
+116,Horsea,Water,NT2,2010-05-17 16:02:49,30,40,70,70,25,60,1,FALSE,Pistola Agua
+117,Seadra,Water,NT2,1997-08-11 0:46:26,55,65,95,95,45,85,2,FALSE,Furia Dragon,Canto,Hidropulso
+118,Goldeen,Water,NT2,2011-08-06 2:28:57,45,67,60,35,50,63,1,FALSE,Burbuja
+119,Seaking,Water,NT2,2010-04-28 13:19:41,80,92,65,65,80,68,2,FALSE,Cornada,Surf
+120,Staryu,Water,NT2,2017-09-08 1:16:03,30,45,55,70,55,85,1,FALSE,Pistola Agua
+121,Starmie,Water,Psychic,2015-09-22 9:15:52,60,75,85,100,85,115,2,FALSE,Psiquico,Surf,Psicoonda,Psicorrayo
+122,Mr. Mime,Psychic,Fairy,2003-03-06 22:02:55,40,45,65,100,120,90,1,FALSE,Brillo Magico,Psiquico,Reflejo,Pantalla Luz
+123,Scyther,Bug,Flying,2003-12-22 22:32:25,70,110,80,55,80,105,1,FALSE,Tiera X,Ataque Ala,Pin Misil
+124,Jynx,Ice,Psychic,2005-02-27 9:49:02,65,50,35,115,95,95,1,FALSE,Rayo Hielo,Psicorrayo,Atraccion
+125,Electabuzz,Electric,NT2,1997-02-05 16:02:31,65,83,57,95,85,105,1,FALSE,Lanzallamas,Pirotecnia,Puño Fuego
+126,Magmar,Fire,NT2,2011-11-21 17:28:43,65,95,57,100,85,93,1,FALSE,Impactrueno,Rayo,Puño Trueno
+127,Pinsir,Bug,NT2,2022-05-18 9:04:52,65,125,100,55,70,85,1,FALSE,Pin Misil,Golpe Karate,Picadura,Contoneo
+128,Tauros,Normal,NT2,2004-09-04 5:11:10,75,100,95,40,70,110,1,FALSE,Derribo,Cornada,Giga Impacto
+129,Magikarp,Water,NT2,2001-09-25 4:42:24,20,10,55,15,20,80,1,FALSE,Salpicadura
+130,Gyarados,Water,Flying,2020-07-10 5:27:25,95,125,79,60,100,81,2,FALSE,Cascada,Colmillo Hielo,Furia Dragon,Acua Cola
+131,Lapras,Water,Ice,2006-11-19 15:26:18,130,85,80,85,95,60,1,FALSE,Rayo Hielo,Surf,Canto
+132,Ditto,Normal,NT2,1996-01-12 20:09:24,48,48,48,48,48,48,1,FALSE,Transformacion
+133,Eevee,Normal,NT2,1996-10-05 5:23:42,55,55,50,45,65,55,1,FALSE,Placaje,Avivar
+134,Vaporeon,Water,NT2,1998-02-16 1:57:33,130,65,60,110,95,65,2,FALSE,Surf,Acua Cola,Rayo Hielo
+135,Jolteon,Electric,NT2,2006-03-28 23:55:11,65,65,60,110,95,130,2,FALSE,Impactrueno,Trueno,Rayo
+136,Flareon,Fire,NT2,2000-08-26 10:10:54,65,130,60,95,110,65,2,FALSE,Acuas,Lanzallamas,Envite Igneo
+137,Porygon,Normal,NT2,1996-10-20 0:07:50,65,60,70,85,75,40,1,FALSE,Dobleataque,Rayo,Triataque
+138,Omanyte,Rock,Water,2010-04-30 15:33:33,35,40,100,90,55,35,1,FALSE,Trampa Rocas,Pistola Agua
+139,Omastar,Rock,Water,2003-01-15 0:24:10,70,60,125,115,70,55,2,FALSE,Tumba Rocas,Rompecorazas,Surf
+140,Kabuto,Rock,Water,2001-07-26 8:24:04,30,80,90,55,45,55,1,FALSE,Burbuja
+141,Kabutops,Rock,Water,2000-08-03 2:11:20,60,115,105,65,70,80,2,FALSE,Tijera X,Garra Metal,Acua Jet
+142,Aerodactyl,Rock,Flying,2012-11-18 5:10:33,80,105,65,60,75,130,1,FALSE,Trampa Rocas,Tumba Rocas,Vuelo,Viento Afin
+143,Snorlax,Normal,NT2,2005-07-30 1:35:26,160,110,65,65,110,30,1,FALSE,Sonanmbulo,Descanso,Proteccion,Golpe Cuerpo
+144,Articuno,Ice,Flying,2000-10-16 9:12:15,90,85,100,95,125,85,1,TRUE,Ventisca,Vuelo
+145,Zapdos,Electric,Flying,2000-12-04 22:39:16,90,90,85,125,90,100,1,TRUE,Electrocañon,Vuelo
+146,Moltres,Fire,Flying,2017-09-01 9:10:01,90,100,90,125,85,90,1,TRUE,Llamarada,Vuelo
+147,Dratini,Dragon,NT2,2007-04-13 7:32:28,41,64,45,50,50,50,1,FALSE,Enrosque
+148,Dragonair,Dragon,NT2,2004-01-24 10:59:08,61,84,65,70,70,70,2,FALSE,Dragoaliento,Furia Dragon
+149,Dragonite,Dragon,Flying,2008-12-08 13:26:53,91,134,95,100,100,80,3,FALSE,Garra Dragon,Vuelo,Vendaval,Cometa Draco
+150,Mewtwo,Psychic,NT2,2002-06-10 23:13:29,106,110,90,154,90,130,1,TRUE,Psicoataque,Esfera Aural,Psiquico,Bola Sombra
+151,Mew,Psychic,NT2,2002-01-13 19:14:43,100,100,100,100,100,100,1,TRUE,Metronomo

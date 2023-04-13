@@ -28,7 +28,7 @@ public class Pokemon {
 	
 
 	
-	public Pokemon (Integer numberP, String name, Tipo type1, Tipo type2, LocalDateTime fA, Integer HP, Integer Attack,
+	public Pokemon(Integer numberP, String name, Tipo type1, Tipo type2, LocalDateTime fA, Integer HP, Integer Attack,
 	 Integer Defense ,Integer SpAtk, Integer SpDef,Integer Speed,Integer Stage, Boolean Legendary, List<String> abilities) {
 		Checkers.check("¡Las fecha de aparicion de los pokemon deben estar entre el 1 de enero de 1996 a las 00:00:00 y el 1 de enero de 2023 a las 00:00:00!", 
 				fA.isAfter(LocalDateTime.of(1996, 1, 1, 00, 00, 00)) && fA.isBefore(LocalDateTime.of(2023, 1, 1, 00, 00, 00)));
