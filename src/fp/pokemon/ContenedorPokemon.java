@@ -1,10 +1,14 @@
 package fp.pokemon;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 import java.util.Objects;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
+import fp.common.Tipo;
 
 
 public class ContenedorPokemon {
@@ -55,6 +59,42 @@ public class ContenedorPokemon {
 	
 	public String toString() {
 		return "ContenedorPokemon [pokemons=" + pokemons + "]";
+	}
+	
+	public boolean existePokemon(String nombre) {
+	    return pokemons.stream().anyMatch(pokemon -> pokemon.getName().equalsIgnoreCase(nombre));
+	}
+	
+	public Integer cuentaPorTipo(Tipo tipo) {
+		Integer res = 0;
+		for(Pokemon pokemon: this.pokemons) {
+			if(pokemon.getType1() == tipo || pokemon.getType2() == tipo) {
+				res ++;
+			}
+		}
+		
+		return res;
+	}
+	
+	public List<Pokemon> filtraPorLegendario(){
+		List<Pokemon> res = new LinkedList<>();
+		for(Pokemon pokemon: this.pokemons) {
+			if(pokemon.getLegendary() == true) {
+				res.add(pokemon);
+			}
+		}
+		return res;
+	}
+	
+	public Map<Tipo, List<String>> agruparPorTipo1() {
+		return pokemons.stream()
+				.collect(Collectors.groupingBy(p -> p.getType1(),
+					Collectors.mapping(Pokemon::getName, Collectors.toList())));
+	}
+	
+	public Map<Tipo, Integer> acumularStatsPorTipo() {
+		return pokemons.stream()
+				.collect(Collectors.groupingBy(Pokemon::getType1, Collectors.summingInt(Pokemon::getTotalStats)));
 	}
 	
 	

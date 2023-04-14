@@ -10,8 +10,8 @@ public class FactoriaPokemonTest {
 	
 	private static void testContenedorPokemon() {
 		System.out.println("Test FactoriaPokemon");
-		ContenedorPokemon pokemons = FactoriaPokemon.leerPokemon("./data/pokemon.csv");
-		System.out.println("Pokemons: " + pokemons);
+		ContenedorPokemon pokedex = FactoriaPokemon.leerPokemon("./data/pokemon.csv");
+		System.out.println("Pokemons: " + pokedex);
 		
 	}
 	

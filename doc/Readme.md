@@ -5,8 +5,8 @@ Autor/a: Manuel J Sanchez Garcia  uvus: mansangar13
 ## Estructura de las carpetas del proyecto
 
 * **/src**: Directorio con el código fuente.
-  * **fp.ajedrez**: Paquete que contiene los tipos del proyecto.
-  * **fp.ajedrez.test**: Paquete que contiene las clases de test del proyecto.
+  * **fp.pokemon**: Paquete que contiene los tipos del proyecto.
+  * **fp.pokemon.test**: Paquete que contiene las clases de test del proyecto.
   * **fp.utiles**:  Paquete que contiene las clases de utilidad. 
 * **/data**: Contiene el dataset del proyecto.
 * **/doc**: Contiene este archivo.
@@ -65,9 +65,39 @@ Representa una partida de ajedrez concreta.
 
 - Tipo Type, enumerado. Puede tomar los valores GRASS, POISON, DRAGON, FIRE, FLYING, WATER, ELECTRIC, NORMAL,  GROUND, BUG, FIGHTING, PSYCHIC, ROCK, GHOST, FAIRY, NT2. (Como no todos los pokemon tienen dos tipos, el tipo NT2 significa No Type 2)
 
+### Factoría - FactoriaPokemon
+Clase de factoría para construir objetos de tipo Pokemon.
+
+- _Partidas parsearPokemon(String linea)_: Sirve para parsear las lineas del csv
+- _Partidas leerPokemon(String ruta)_:Crea un objeto de tipo ContenedorPokemon a partir de la información recogida en el archivo csv, cuya ruta se da como parámetro.
 
 
+### Tipo Contenedor - ContenedorPokemon
 
+Clase contenedora de los objetos de tipo Pokemon.
+
+**Propiedades**:
+
+-  _pokemons_, de tipo _List\<Pokemon\>_, consultable. Lista de pokemons 
+ 
+**Constructores**: 
+
+- C1: Constructor por defecto. Creal un objeto de tipo ContenedorPokemon sin ningun pokemon almacenado.
+- C2: Constructor con un parámetro de tipo Stream\<Partida\>. Crea un objeto de tipo Pokemon con los pokemons incluidoss en el Stream dado 
+
+**Criterio de igualdad**: Dos pokemons son iguales si lo son todas sus propiedades.
+
+
+**Otras operaciones**:
+- _numPokemons()_: Nos da el numero de pokemons.
+- _añadirPokemon(Pokemon p)_: permite añadir un pokemon,
+- _añadirPokemons(List<Pokemon> nuevosPokemon)_: Permite añadir una lista de pokemon.
+- _eliminarPokemon(Pokemon p)_: Permite eliminar un pokemon.
+- _existePokemon(String nombre)_: Nos permite saber si un pokemon existe o no en la lista.
+- _cuentaPorTipo(Tipo tipo)_: Cuenta el número de pokemons por cada tipo.
+- _filtraPorLegendario()_: Filtra la lista de pokemons y obtiene una lista con los pokemons que son legendarios.
+- _agruparPorTipo1()_: Agrupa los nombres de los pokemons segun el tipo.
+- _acumularStatsPorTipo()_: Acumula la suma de stats por cada tipo.
 
 
 

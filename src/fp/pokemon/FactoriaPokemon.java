@@ -12,8 +12,6 @@ import java.util.List;
 
 import fp.common.Tipo;
 
-import fp.utiles.Checkers;
-
 public class FactoriaPokemon {
 	
 	public static Pokemon parsearPokemon(String linea) {
