@@ -57,8 +57,8 @@ public class ContenedorPokemonTest {
 	
 	private static void testExistePokemon() {
 		System.out.println("\nTest del metodo existePokemon");
-		System.out.println(pokedex.existePokemon("Bulbasaur"));
-		System.out.println(pokedex.existePokemon("Raikou"));
+		System.out.println("Existe el pokemon Bulbasaur: " + pokedex.existePokemon2("Bulbasaur"));
+		System.out.println("Existe el pokemon Raikou: " +pokedex.existePokemon2("Raikou"));
 		System.out.println("--------------------------");
 	}
 	
@@ -77,7 +77,7 @@ public class ContenedorPokemonTest {
 	
 	private static void testAgruparPorTipo1() {
 		System.out.println("\nTest del metodo agrupaPorTipo1");
-		System.out.println(pokedex.agruparPorTipo1());
+		System.out.println(pokedex.agrupaPorTipo1());
 		System.out.println("--------------------------");
 	}
 	
