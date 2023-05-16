@@ -1,8 +1,6 @@
 package fp.pokemon.test;
 
-import java.time.LocalDateTime;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
 import fp.common.Tipo;
@@ -31,6 +29,12 @@ public class ContenedorPokemonTest {
 		testFiltraPorLegendario();
 		testAgruparPorTipo1();
 		testAcumularStatsPorTipo();
+		testMaximoVelocidadPokesLegendarios();
+		testOrdenarDefensaPorTipo();
+		testPokemonsporTipo();
+		testMayorStatsPorAnyo();
+		testHabilidadesMasUsadas();
+		testLegendarioMasFuertes();
 	}
 	
 	private static void testConstructor() {
@@ -56,7 +60,11 @@ public class ContenedorPokemonTest {
 	}
 	
 	private static void testExistePokemon() {
-		System.out.println("\nTest del metodo existePokemon");
+		System.out.println("\nTest del metodo existePokemon (bucle)");
+		System.out.println("Existe el pokemon Bulbasaur: " + pokedex.existePokemon("Bulbasaur"));
+		System.out.println("Existe el pokemon Raikou: " +pokedex.existePokemon("Raikou"));
+		System.out.println("--------------------------");
+		System.out.println("\nTest del metodo existePokemon (stream)");
 		System.out.println("Existe el pokemon Bulbasaur: " + pokedex.existePokemon2("Bulbasaur"));
 		System.out.println("Existe el pokemon Raikou: " +pokedex.existePokemon2("Raikou"));
 		System.out.println("--------------------------");
@@ -64,13 +72,19 @@ public class ContenedorPokemonTest {
 	
 	private static void testCuentaPorTipo() {
 		Tipo t1 = Tipo.ICE;
-		System.out.println("\nTest del metodo cuentaPorTipo");
+		System.out.println("\nTest del metodo cuentaPorTipo (bucle)");
 		System.out.println("Hay " + pokedex.cuentaPorTipo(t1) + " pokemons del tipo " + t1);
+		System.out.println("--------------------------");
+		System.out.println("\nTest del metodo cuentaPorTipo (stream)");
+		System.out.println("Hay " + pokedex.cuentaPorTipo2(t1) + " pokemons del tipo " + t1);
 		System.out.println("--------------------------");
 	}
 	
 	private static void testFiltraPorLegendario() {
-		System.out.println("\nTest del metodo filtraPorLegendario");
+		System.out.println("\nTest del metodo filtraPorLegendario (bucle)");
+		System.out.println(pokedex.filtraPorLegendario());
+		System.out.println("--------------------------");
+		System.out.println("\nTest del metodo filtraPorLegendario (stream)");
 		System.out.println(pokedex.filtraPorLegendario());
 		System.out.println("--------------------------");
 	}
@@ -86,6 +100,66 @@ public class ContenedorPokemonTest {
 		System.out.println(pokedex.acumularStatsPorTipo());
 		System.out.println("--------------------------");
 	}
+	
+	private static void testMaximoVelocidadPokesLegendarios() {
+		System.out.println("\nTest del metodo maximoAtaquePokesLegendario");
+		System.out.println(pokedex.maximoVelocidadPokesLegendario());
+		System.out.println("--------------------------");
+	}
+	
+	private static void testOrdenarDefensaPorTipo() {
+		Tipo t1 = Tipo.FIRE;
+		System.out.println("\nTest del metodo ordenarDefensaPorTipo");
+		System.out.println(pokedex.ordenarDefensaPorTipo(t1));
+		System.out.println("--------------------------");
+		
+	}
+	
+	private static void testPokemonsporTipo() {
+		System.out.println("\nTest del metodo pokemonsporTipo");
+		System.out.println(pokedex.pokemonsPorTipo());
+		System.out.println("--------------------------");
+	}
+	
+	
+	private static void testMayorStatsPorAnyo() {
+		System.out.println("\nTest del metodo mayorStatsPorAnyo");
+		System.out.println(pokedex.mayorStatsPorAnyo());
+		System.out.println("--------------------------");
+	}
+	
+	
+	private static void testHabilidadesMasUsadas() {
+		System.out.println("\nTest del metodo HabilidadesMasUsadas");
+		System.out.println(pokedex.habilidadesMasUsadas(15));
+		System.out.println("--------------------------");
+	}
+	
+	private static void testLegendarioMasFuertes() {
+		System.out.println("\nTest del metodo legendarioMasFuerte");
+		System.out.println(pokedex.legendarioMasFuerte());
+		System.out.println("--------------------------");
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 

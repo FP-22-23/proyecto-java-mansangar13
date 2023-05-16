@@ -1,11 +1,18 @@
 package fp.pokemon;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.HashMap;
 import java.util.Objects;
+import java.util.Optional;
+import java.util.SortedMap;
+import java.util.TreeMap;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -88,6 +95,15 @@ public class ContenedorPokemon {
 		return res;
 	}
 	
+	//Funcion cuentaPorTipo hecha con streams
+	
+	public int cuentaPorTipo2(Tipo tipo) {
+	    return (int) this.pokemons.stream()
+	            .filter(pokemon -> pokemon.getType1() == tipo || pokemon.getType2() == tipo)
+	            .count();
+	}
+
+	
 	public List<Pokemon> filtraPorLegendario(){
 		List<Pokemon> res = new LinkedList<>();
 		for(Pokemon pokemon: this.pokemons) {
@@ -97,6 +113,15 @@ public class ContenedorPokemon {
 		}
 		return res;
 	}
+	
+	// funcion filtraPorLegendario hecha con streams
+	
+	public List<Pokemon> filtraPorLegendario2() {
+	    return this.pokemons.stream()
+	            .filter(Pokemon::getLegendary)
+	            .collect(Collectors.toList());
+	}
+
 	
 	//Nueva funcion hecha sin streams
 	public Map<Tipo, List<String>> agrupaPorTipo1(){
@@ -150,4 +175,80 @@ public class ContenedorPokemon {
 	}
 	
 	
+	public Pokemon maximoVelocidadPokesLegendario() {
+		
+		return pokemons.stream()
+				.filter(pokemon -> pokemon.getLegendary() == true)
+				.max(Comparator.comparingInt(Pokemon::getSpeed))
+				.orElse(null);
+		
+	}
+	
+	public List<String> ordenarDefensaPorTipo(Tipo tipo) {
+	    return pokemons.stream()
+	            .filter(pokemon -> pokemon.getType1() == tipo)
+	            .sorted(Comparator.comparingInt(Pokemon::getDefense).reversed())
+	            .map(pokemon -> pokemon.getName() + " - Defense: " + pokemon.getDefense())
+	            .collect(Collectors.toList());
+	}
+
+	
+	public Map<Tipo, List<String>> pokemonsPorTipo(){
+        return pokemons.stream()
+                .collect(Collectors.groupingBy(pokemon -> pokemon.getType1(),
+                        Collectors.mapping(Pokemon::getName, Collectors.toList())));
+	}
+	
+	public Map<Object, Object> mayorStatsPorAnyo() {
+	    return pokemons.stream()
+	            .collect(Collectors.groupingBy(
+	                    pokemon -> pokemon.getfA().getYear(),
+	                    Collectors.collectingAndThen(
+	                            Collectors.maxBy(Comparator.comparingInt(pokemon -> pokemon.getTotalStats())),
+	                            maxPokemon -> maxPokemon.map(Pokemon::getName).orElse(""))));
+	}
+	
+	public SortedMap<String, Integer> habilidadesMasUsadas(int n) {
+	    return pokemons.stream()
+	            .flatMap(pokemon -> pokemon.getAbilities().stream())
+	            .collect(Collectors.groupingBy(habilidad -> habilidad,
+	            		TreeMap::new,Collectors.summingInt(habilidad -> 1)))
+	            .entrySet()
+	            .stream()
+	            .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
+	            .limit(n)
+	            .collect(Collectors.toMap(Map.Entry::getKey,Map.Entry::getValue,(v1, v2) -> v1,TreeMap::new));
+	}
+	
+	public Map<String, Integer> legendarioMasFuerte() {
+	    return pokemons.stream()
+	            .filter(Pokemon::getLegendary)
+	            .max(Comparator.comparingInt(Pokemon::getTotalStats))
+	            .map(pokemon -> Collections.singletonMap(pokemon.getName(), pokemon.getTotalStats()))
+	            .orElse(Collections.emptyMap());
+	}
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
 }
