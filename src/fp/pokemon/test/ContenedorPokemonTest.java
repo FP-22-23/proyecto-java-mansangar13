@@ -102,7 +102,7 @@ public class ContenedorPokemonTest {
 	}
 	
 	private static void testMaximoVelocidadPokesLegendarios() {
-		System.out.println("\nTest del metodo maximoAtaquePokesLegendario");
+		System.out.println("\nTest del metodo maximoVelocidadPokesLegendario");
 		System.out.println(pokedex.maximoVelocidadPokesLegendario());
 		System.out.println("--------------------------");
 	}

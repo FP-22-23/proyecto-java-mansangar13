@@ -98,6 +98,12 @@ Clase contenedora de los objetos de tipo Pokemon.
 - _filtraPorLegendario()_: Filtra la lista de pokemons y obtiene una lista con los pokemons que son legendarios.
 - _agruparPorTipo1()_: Agrupa los nombres de los pokemons segun el tipo.
 - _acumularStatsPorTipo()_: Acumula la suma de stats por cada tipo.
+- _maximoVelocidadPokesLegendario()_: Calcula el pokemon legendario mas veloz.
+- _ordenarDefensaPorTipo()_: Saca en orden descendente los pokemons y su cantidad de defensa segun el tipo.
+- _pokemonsPorTipo()_: Calcula los pokemons segun su primer tipo.
+- _mayorStatsPorAnyo()_: Calcula los pokemons con mayor estadistica de cada año.
+- _habilidadesMasusadas()_: Calcula las n habilidades mas usadas por pokemons.
+- _legendarioMasFuerte()_: Calcula el legendario mas fuerte.
 
 
 
